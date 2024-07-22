@@ -1,0 +1,4737 @@
+{
+  "editCanvasConfig": {
+    "projectName": "社保卡客群统计看板",
+    "width": 1920,
+    "height": 1080,
+    "filterShow": false,
+    "hueRotate": 0,
+    "saturate": 1,
+    "contrast": 1,
+    "brightness": 1,
+    "opacity": 1,
+    "rotateZ": 0,
+    "rotateX": 0,
+    "rotateY": 0,
+    "skewX": 0,
+    "skewY": 0,
+    "blendMode": "normal",
+    "background": "rgba(8, 16, 255, 0.2)",
+    "backgroundImage": "",
+    "selectColor": false,
+    "chartThemeColor": "dark",
+    "chartCustomThemeColorInfo": null,
+    "chartThemeSetting": {
+      "title": {
+        "show": true,
+        "textStyle": {
+          "color": "#BFBFBF",
+          "fontSize": 18
+        },
+        "subtextStyle": {
+          "color": "#A2A2A2",
+          "fontSize": 14
+        }
+      },
+      "xAxis": {
+        "show": true,
+        "name": "",
+        "nameGap": 15,
+        "nameTextStyle": {
+          "color": "#B9B8CE",
+          "fontSize": 12
+        },
+        "inverse": false,
+        "axisLabel": {
+          "show": true,
+          "fontSize": 12,
+          "color": "#B9B8CE",
+          "rotate": 0
+        },
+        "position": "bottom",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#B9B8CE",
+            "width": 1
+          },
+          "onZero": true
+        },
+        "axisTick": {
+          "show": true,
+          "length": 5
+        },
+        "splitLine": {
+          "show": false,
+          "lineStyle": {
+            "color": "#484753",
+            "width": 1,
+            "type": "solid"
+          }
+        }
+      },
+      "yAxis": {
+        "show": true,
+        "name": "",
+        "nameGap": 15,
+        "nameTextStyle": {
+          "color": "#B9B8CE",
+          "fontSize": 12
+        },
+        "inverse": false,
+        "axisLabel": {
+          "show": true,
+          "fontSize": 12,
+          "color": "#B9B8CE",
+          "rotate": 0
+        },
+        "position": "left",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#B9B8CE",
+            "width": 1
+          },
+          "onZero": true
+        },
+        "axisTick": {
+          "show": true,
+          "length": 5
+        },
+        "splitLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#484753",
+            "width": 1,
+            "type": "solid"
+          }
+        }
+      },
+      "legend": {
+        "show": true,
+        "type": "scroll",
+        "x": "center",
+        "y": "top",
+        "icon": "circle",
+        "orient": "horizontal",
+        "textStyle": {
+          "color": "#B9B8CE",
+          "fontSize": 18
+        },
+        "itemHeight": 15,
+        "itemWidth": 15,
+        "pageTextStyle": {
+          "color": "#B9B8CE"
+        }
+      },
+      "grid": {
+        "show": false,
+        "left": "10%",
+        "top": "60",
+        "right": "10%",
+        "bottom": "60"
+      },
+      "dataset": null,
+      "renderer": "svg"
+    },
+    "previewScaleType": "scrollY"
+  },
+  "componentList": [
+    {
+      "id": "cyt9cfpk4fs00",
+      "isGroup": false,
+      "attr": {
+        "x": 533,
+        "y": 617,
+        "w": 848,
+        "h": 442,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "Border04",
+      "chartConfig": {
+        "key": "Border04",
+        "chartKey": "VBorder04",
+        "conKey": "VCBorder04",
+        "title": "边框-04",
+        "category": "Borders",
+        "categoryName": "边框",
+        "package": "Decorates",
+        "chartFrame": "static",
+        "image": "border04.png"
+      },
+      "option": {
+        "colors": [
+          "#09E1F1FF",
+          "#1f33a2"
+        ],
+        "borderTitle": "指标数据",
+        "backgroundColor": "#00000000",
+        "borderTitleSize": 18,
+        "borderTitleColor": "#FEFEFEFF",
+        "borderTitleWidth": 250,
+        "borderTitleHeight": 32
+      }
+    },
+    {
+      "id": "b6ss08aeytk00",
+      "isGroup": false,
+      "attr": {
+        "x": 28,
+        "y": 138,
+        "w": 200,
+        "h": 100,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "总数(个):",
+        "fontSize": 18,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#FFFFFFFF",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "42cj19ochfq000",
+      "isGroup": false,
+      "attr": {
+        "x": 157,
+        "y": 135,
+        "w": 100,
+        "h": 100,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "678",
+        "fontSize": 22,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#00fff4FF",
+        "textAlign": "center",
+        "fontWeight": "bold",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "1rm6elnyco4g00",
+      "isGroup": false,
+      "attr": {
+        "x": 316,
+        "y": 635,
+        "w": 200,
+        "h": 60,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "56.66",
+        "fontSize": 22,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#00fff4FF",
+        "textAlign": "center",
+        "fontWeight": "bold",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "5ofrkcn0m1c000",
+      "isGroup": false,
+      "attr": {
+        "x": 228,
+        "y": 634,
+        "w": 200,
+        "h": 60,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "总金额(亿):",
+        "fontSize": 18,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#FFFFFFFF",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "4ehqmusan6o000",
+      "isGroup": false,
+      "attr": {
+        "x": 565.5,
+        "y": 695,
+        "w": 787,
+        "h": 340,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": true,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TableScrollBoard",
+      "chartConfig": {
+        "key": "TableScrollBoard",
+        "chartKey": "VTableScrollBoard",
+        "conKey": "VCTableScrollBoard",
+        "title": "轮播列表",
+        "category": "Tables",
+        "categoryName": "表格",
+        "package": "Tables",
+        "chartFrame": "common",
+        "image": "table_scrollboard.png"
+      },
+      "option": {
+        "align": [
+          "center",
+          "center",
+          "center",
+          "center",
+          "center"
+        ],
+        "index": false,
+        "header": [
+          "机构",
+          "币种",
+          "业务主体类型",
+          "交易类型",
+          "指标数据"
+        ],
+        "rowNum": 5,
+        "dataset": [
+          [
+            "XX银行金水支行",
+            "人民币",
+            "代理",
+            "赎回",
+            1200
+          ],
+          [
+            "XX银行总行",
+            "人民币",
+            "代理",
+            "购买",
+            1200
+          ],
+          [
+            "XX银行分行对公",
+            "人民币",
+            "代理",
+            "赎回",
+            2134.45
+          ],
+          [
+            "XX银行客户",
+            "到期解除",
+            "代理",
+            "赎回",
+            456.67
+          ],
+          [
+            "XX银行金水支行",
+            "人民币",
+            "代理",
+            "赎回",
+            345.56
+          ],
+          [
+            "XX银行金水支行",
+            "人民币",
+            "代理",
+            "赎回",
+            2345.88
+          ],
+          [
+            "XX银行客户",
+            "到期解除",
+            "代理",
+            "赎回",
+            456.67
+          ],
+          [
+            "XX银行总行对公",
+            "人民币",
+            "代理",
+            "赎回",
+            34.67
+          ],
+          [
+            "XX银行总行",
+            "人民币",
+            "代理",
+            "赎回",
+            1800
+          ],
+          [
+            "XX银行二分行",
+            "人民币",
+            "代理",
+            "赎回",
+            2300
+          ]
+        ],
+        "carousel": "single",
+        "waitTime": 1,
+        "headerBGC": "#417CEAFF",
+        "oddRowBGC": "#4985B0FF",
+        "evenRowBGC": "#1A89D91F",
+        "columnWidth": [
+          "180",
+          "120",
+          "170",
+          "180"
+        ],
+        "headerHeight": 35
+      }
+    },
+    {
+      "id": "1m1cx2hd3t6o00",
+      "isGroup": false,
+      "attr": {
+        "x": 1595,
+        "y": 43,
+        "w": 200,
+        "h": 60,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "金额(亿):",
+        "fontSize": 18,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#FFFFFFFF",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "1k94jd654b1c00",
+      "isGroup": false,
+      "attr": {
+        "x": 780,
+        "y": -17,
+        "w": 388,
+        "h": 116,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": 1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "Decorates03",
+      "chartConfig": {
+        "key": "Decorates03",
+        "chartKey": "VDecorates03",
+        "conKey": "VCDecorates03",
+        "title": "装饰-03",
+        "category": "Decorates",
+        "categoryName": "装饰",
+        "package": "Decorates",
+        "chartFrame": "static",
+        "image": "decorates03.png"
+      },
+      "option": {
+        "colors": [
+          "#1dc1f5",
+          "#1dc1f5"
+        ],
+        "dataset": "数据治理指标可视化",
+        "textSize": 20,
+        "textColor": "#1BA6E1FF"
+      }
+    },
+    {
+      "id": "1kj9doche9a800",
+      "isGroup": false,
+      "attr": {
+        "x": 25,
+        "y": 699,
+        "w": 487,
+        "h": 300,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": true,
+        "hueRotate": 60,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "BarCommon",
+      "chartConfig": {
+        "key": "BarCommon",
+        "chartKey": "VBarCommon",
+        "conKey": "VCBarCommon",
+        "title": "柱状图",
+        "category": "Bars",
+        "categoryName": "柱状图",
+        "package": "Charts",
+        "chartFrame": "echarts",
+        "image": "bar_x.png"
+      },
+      "option": {
+        "grid": {
+          "top": "60",
+          "left": "10%",
+          "show": false,
+          "right": "10%",
+          "bottom": "60"
+        },
+        "xAxis": {
+          "name": "类别",
+          "show": true,
+          "type": "category",
+          "inverse": false,
+          "nameGap": 15,
+          "axisLine": {
+            "show": true,
+            "onZero": true,
+            "lineStyle": {
+              "color": "#1663F1FF",
+              "width": 1
+            }
+          },
+          "axisTick": {
+            "show": true,
+            "length": 5
+          },
+          "position": "bottom",
+          "axisLabel": {
+            "show": true,
+            "color": "#317DC9FF",
+            "rotate": 0,
+            "fontSize": 12
+          },
+          "splitLine": {
+            "show": false,
+            "lineStyle": {
+              "type": "solid",
+              "color": "#484753",
+              "width": 1
+            }
+          },
+          "nameTextStyle": {
+            "color": "#1663F1FF",
+            "fontSize": 12
+          }
+        },
+        "yAxis": {
+          "name": "个数/金额(亿)",
+          "show": true,
+          "type": "value",
+          "inverse": false,
+          "nameGap": 15,
+          "axisLine": {
+            "show": true,
+            "onZero": true,
+            "lineStyle": {
+              "color": "#1663F1FF",
+              "width": 1
+            }
+          },
+          "axisTick": {
+            "show": true,
+            "length": 5
+          },
+          "position": "left",
+          "axisLabel": {
+            "show": true,
+            "color": "#317DC9FF",
+            "rotate": 0,
+            "fontSize": 12
+          },
+          "splitLine": {
+            "show": true,
+            "lineStyle": {
+              "type": "solid",
+              "color": "#484753",
+              "width": 1
+            }
+          },
+          "nameTextStyle": {
+            "color": "#1663F1FF",
+            "fontSize": 12
+          }
+        },
+        "legend": {
+          "x": "center",
+          "y": "top",
+          "icon": "circle",
+          "show": true,
+          "type": "scroll",
+          "orient": "horizontal",
+          "itemWidth": 15,
+          "textStyle": {
+            "color": "#B9B8CE",
+            "fontSize": 18
+          },
+          "itemHeight": 15,
+          "pageTextStyle": {
+            "color": "#B9B8CE"
+          }
+        },
+        "series": [
+          {
+            "type": "bar",
+            "label": {
+              "show": true,
+              "color": "#1FADEAFF",
+              "fontSize": 12,
+              "position": "top"
+            },
+            "barWidth": 15,
+            "itemStyle": {
+              "color": null,
+              "borderRadius": 2
+            }
+          },
+          {
+            "type": "bar",
+            "label": {
+              "show": true,
+              "color": "#2FE7A7FF",
+              "fontSize": 12,
+              "position": "top"
+            },
+            "barWidth": 15,
+            "itemStyle": {
+              "color": null,
+              "borderRadius": 2
+            }
+          }
+        ],
+        "dataset": {
+          "source": [
+            {
+              "个数": 120,
+              "金额": 450,
+              "product": "预付款担保"
+            },
+            {
+              "个数": 200,
+              "金额": 800,
+              "product": "履约担保(工程)"
+            },
+            {
+              "个数": 150,
+              "金额": 566.34,
+              "product": "农名工保函"
+            },
+            {
+              "个数": 80,
+              "金额": 123.34,
+              "product": "履约保函"
+            },
+            {
+              "个数": 70,
+              "金额": 45,
+              "product": "电子投标保函"
+            },
+            {
+              "个数": 110,
+              "金额": 35,
+              "product": "履约担保(非工程)"
+            },
+            {
+              "个数": 130,
+              "金额": 355.67,
+              "product": "质量担保"
+            }
+          ],
+          "dimensions": [
+            "product",
+            "个数",
+            "金额"
+          ]
+        },
+        "tooltip": {
+          "show": true,
+          "trigger": "axis",
+          "axisPointer": {
+            "show": true,
+            "type": "shadow"
+          }
+        },
+        "backgroundColor": "rgba(0,0,0,0)"
+      }
+    },
+    {
+      "id": "4cxdokzip0c000",
+      "isGroup": false,
+      "attr": {
+        "x": 101,
+        "y": 614,
+        "w": 200,
+        "h": 100,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "888",
+        "fontSize": 22,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#00fff4FF",
+        "textAlign": "center",
+        "fontWeight": "bold",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "ptnc305x5kg00",
+      "isGroup": false,
+      "attr": {
+        "x": 69,
+        "y": 615,
+        "w": 100,
+        "h": 100,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "总数(个):",
+        "fontSize": 18,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#FFFFFFFF",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "17hiylqbg0zg00",
+      "isGroup": false,
+      "attr": {
+        "x": 1376,
+        "y": 24,
+        "w": 200,
+        "h": 100,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "个数(个):",
+        "fontSize": 18,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#FFFFFFFF",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "5bvvkb1moyk000",
+      "isGroup": false,
+      "attr": {
+        "x": 1732,
+        "y": 49,
+        "w": 100,
+        "h": 50,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "888.88",
+        "fontSize": 22,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#00fff4FF",
+        "textAlign": "center",
+        "fontWeight": "bold",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "2v55v5qmjl0000",
+      "isGroup": false,
+      "attr": {
+        "x": 1504,
+        "y": 46,
+        "w": 100,
+        "h": 60,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "1234",
+        "fontSize": 22,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#00fff4FF",
+        "textAlign": "center",
+        "fontWeight": "bold",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "584fpwkwofw000",
+      "isGroup": false,
+      "attr": {
+        "x": 1431,
+        "y": 147,
+        "w": 291,
+        "h": 210,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": true,
+        "hueRotate": 300,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "LineGradients",
+      "chartConfig": {
+        "key": "LineGradients",
+        "chartKey": "VLineGradients",
+        "conKey": "VCLineGradients",
+        "title": "双折线渐变面积图",
+        "category": "Lines",
+        "categoryName": "折线图",
+        "package": "Charts",
+        "chartFrame": "echarts",
+        "image": "line_gradient.png"
+      },
+      "option": {
+        "legend": {
+          "show": true,
+          "type": "scroll",
+          "x": "center",
+          "y": "top",
+          "icon": "circle",
+          "orient": "horizontal",
+          "textStyle": {
+            "color": "#B9B8CE",
+            "fontSize": 18
+          },
+          "itemHeight": 15,
+          "itemWidth": 15,
+          "pageTextStyle": {
+            "color": "#B9B8CE"
+          }
+        },
+        "xAxis": {
+          "show": true,
+          "name": "类别",
+          "nameGap": 12,
+          "nameTextStyle": {
+            "color": "#3371D4FF",
+            "fontSize": 12
+          },
+          "inverse": false,
+          "axisLabel": {
+            "show": true,
+            "fontSize": 12,
+            "color": "#3699E0FF",
+            "rotate": 0
+          },
+          "position": "bottom",
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#3371D4FF",
+              "width": 1
+            },
+            "onZero": true
+          },
+          "axisTick": {
+            "show": true,
+            "length": 5
+          },
+          "splitLine": {
+            "show": false,
+            "lineStyle": {
+              "color": "#484753",
+              "width": 1,
+              "type": "solid"
+            }
+          },
+          "type": "category"
+        },
+        "yAxis": {
+          "show": true,
+          "name": "个数/金额(亿)",
+          "nameGap": 15,
+          "nameTextStyle": {
+            "color": "#3371D4FF",
+            "fontSize": 12
+          },
+          "inverse": false,
+          "axisLabel": {
+            "show": true,
+            "fontSize": 12,
+            "color": "#3699E0FF",
+            "rotate": 0
+          },
+          "position": "left",
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#3371D4FF",
+              "width": 1
+            },
+            "onZero": true
+          },
+          "axisTick": {
+            "show": true,
+            "length": 5
+          },
+          "splitLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#484753",
+              "width": 1,
+              "type": "solid"
+            }
+          },
+          "type": "value"
+        },
+        "grid": {
+          "show": false,
+          "left": "10%",
+          "top": "60",
+          "right": "10%",
+          "bottom": "60"
+        },
+        "series": [
+          {
+            "type": "line",
+            "label": {
+              "show": true,
+              "color": "#7A2D2D00",
+              "fontSize": 12,
+              "position": "top"
+            },
+            "smooth": false,
+            "areaStyle": {
+              "color": {
+                "colorStops": [
+                  {
+                    "offset": 0,
+                    "color": "rgba(73, 146, 255, 0.5)"
+                  },
+                  {
+                    "offset": 1,
+                    "color": "rgba(0,0,0, 0)"
+                  }
+                ],
+                "x": 0,
+                "y": 0,
+                "x2": 0,
+                "y2": 1,
+                "type": "linear",
+                "global": false
+              },
+              "opacity": 0.8
+            },
+            "lineStyle": {
+              "type": "solid",
+              "width": 3
+            },
+            "symbolSize": 5
+          },
+          {
+            "type": "line",
+            "label": {
+              "show": true,
+              "color": "#fff",
+              "fontSize": 12,
+              "position": "top"
+            },
+            "smooth": false,
+            "areaStyle": {
+              "color": {
+                "colorStops": [
+                  {
+                    "offset": 0,
+                    "color": "rgba(124, 255, 178, 0.5)"
+                  },
+                  {
+                    "offset": 1,
+                    "color": "rgba(0,0,0, 0)"
+                  }
+                ],
+                "x": 0,
+                "y": 0,
+                "x2": 0,
+                "y2": 1,
+                "type": "linear",
+                "global": false
+              },
+              "opacity": 0.8
+            },
+            "lineStyle": {
+              "type": "solid",
+              "width": 3
+            }
+          }
+        ],
+        "dataset": {
+          "source": [
+            {
+              "product": "融资担保",
+              "在保个数": 312,
+              "在保金额": 233.45
+            },
+            {
+              "product": "信用担保",
+              "在保个数": 200,
+              "在保金额": 345.56
+            },
+            {
+              "product": "非融资担保",
+              "在保个数": 150,
+              "在保金额": 123.45
+            }
+          ],
+          "dimensions": [
+            "product",
+            "在保个数",
+            "在保金额"
+          ]
+        },
+        "tooltip": {
+          "show": true,
+          "trigger": "axis",
+          "axisPointer": {
+            "type": "line"
+          }
+        },
+        "backgroundColor": "rgba(0,0,0,0)"
+      }
+    },
+    {
+      "id": "3u727pgyuim000",
+      "isGroup": false,
+      "attr": {
+        "x": 1322,
+        "y": 708,
+        "w": 412,
+        "h": 218,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": true,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "Image",
+      "chartConfig": {
+        "key": "Image",
+        "chartKey": "VImage",
+        "conKey": "VCImage",
+        "title": "left_top_lan.png",
+        "category": "Mores",
+        "categoryName": "更多",
+        "package": "Informations",
+        "chartFrame": "static",
+        "image": "photo.png"
+      },
+      "option": {
+        "fit": "contain",
+        "dataset": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAABlCAYAAABUfC3PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjlEOTc0RjM4OTg3ODExRUNCMDVERUExNDFFMTQxOEREIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjlEOTc0RjM5OTg3ODExRUNCMDVERUExNDFFMTQxOEREIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OUQ5NzRGMzY5ODc4MTFFQ0IwNURFQTE0MUUxNDE4REQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OUQ5NzRGMzc5ODc4MTFFQ0IwNURFQTE0MUUxNDE4REQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5mbiciAAAa1UlEQVR42uxd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",
+        "borderRadius": 10
+      }
+    },
+    {
+      "id": "595diigy8t4000",
+      "isGroup": false,
+      "attr": {
+        "x": 1278,
+        "y": 664,
+        "w": 500,
+        "h": 300,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": true,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextGradient",
+      "chartConfig": {
+        "key": "TextGradient",
+        "chartKey": "VTextGradient",
+        "conKey": "VCTextGradient",
+        "title": "渐变文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "naiveUI",
+        "image": "text_gradient.png"
+      },
+      "option": {
+        "size": 38,
+        "dataset": "12",
+        "gradient": {
+          "to": "#0077FFFF",
+          "deg": 45,
+          "from": "#1BE0D9FF"
+        }
+      }
+    },
+    {
+      "id": "3r14qxdb1fc000",
+      "isGroup": false,
+      "attr": {
+        "x": 1573,
+        "y": 711,
+        "w": 412,
+        "h": 218,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": true,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "Image",
+      "chartConfig": {
+        "key": "Image",
+        "chartKey": "VImage",
+        "conKey": "VCImage",
+        "title": "left_top_lv.png",
+        "category": "Mores",
+        "categoryName": "更多",
+        "package": "Informations",
+        "chartFrame": "static",
+        "image": "photo.png"
+      },
+      "option": {
+        "fit": "contain",
+        "dataset": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAABlCAYAAABUfC3PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk4RDhGOTlFOTg3ODExRUM4NjJEQjlGQ0M1NzlFMzU4IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk4RDhGOTlGOTg3ODExRUM4NjJEQjlGQ0M1NzlFMzU4Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OThEOEY5OUM5ODc4MTFFQzg2MkRCOUZDQzU3OUUzNTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OThEOEY5OUQ5ODc4MTFFQzg2MkRCOUZDQzU3OUUzNTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5pbqzMAAAed0lEQVR42uxd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",
+        "borderRadius": 10
+      }
+    },
+    {
+      "id": "31dft5p11qu000",
+      "isGroup": false,
+      "attr": {
+        "x": 1532,
+        "y": 669,
+        "w": 500,
+        "h": 300,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": true,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextGradient",
+      "chartConfig": {
+        "key": "TextGradient",
+        "chartKey": "VTextGradient",
+        "conKey": "VCTextGradient",
+        "title": "渐变文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "naiveUI",
+        "image": "text_gradient.png"
+      },
+      "option": {
+        "size": 38,
+        "dataset": "5.67",
+        "gradient": {
+          "to": "#00E1FFFF",
+          "deg": 45,
+          "from": "#00FF62FF"
+        }
+      }
+    },
+    {
+      "id": "1zsasq4pfnk000",
+      "isGroup": false,
+      "attr": {
+        "x": 1620,
+        "y": 970,
+        "w": 300,
+        "h": 100,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextGradient",
+      "chartConfig": {
+        "key": "TextGradient",
+        "chartKey": "VTextGradient",
+        "conKey": "VCTextGradient",
+        "title": "渐变文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "naiveUI",
+        "image": "text_gradient.png"
+      },
+      "option": {
+        "size": 20,
+        "dataset": "代理金额",
+        "gradient": {
+          "to": "#FFFFFFFF",
+          "deg": 45,
+          "from": "#F9FCFAFF"
+        }
+      }
+    },
+    {
+      "id": "52a9yinmqfo000",
+      "isGroup": false,
+      "attr": {
+        "x": 1398,
+        "y": 978,
+        "w": 256,
+        "h": 89,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextGradient",
+      "chartConfig": {
+        "key": "TextGradient",
+        "chartKey": "VTextGradient",
+        "conKey": "VCTextGradient",
+        "title": "渐变文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "naiveUI",
+        "image": "text_gradient.png"
+      },
+      "option": {
+        "size": 20,
+        "dataset": "自营个数",
+        "gradient": {
+          "to": "#FFFFFFFF",
+          "deg": 45,
+          "from": "#FCFCFCFF"
+        }
+      }
+    },
+    {
+      "id": "5bv3xiwdfbw000",
+      "isGroup": false,
+      "attr": {
+        "x": 1393,
+        "y": 615,
+        "w": 200,
+        "h": 100,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "总数(个):",
+        "fontSize": 18,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#FFFFFFFF",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "52dk3o5hb14000",
+      "isGroup": false,
+      "attr": {
+        "x": 1526,
+        "y": 617,
+        "w": 100,
+        "h": 100,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "12",
+        "fontSize": 22,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#00fff4FF",
+        "textAlign": "center",
+        "fontWeight": "bold",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "20kawhn459uo00",
+      "isGroup": false,
+      "attr": {
+        "x": 1745,
+        "y": 616,
+        "w": 100,
+        "h": 100,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "5.67",
+        "fontSize": 22,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#00fff4FF",
+        "textAlign": "center",
+        "fontWeight": "bold",
+        "borderColor": "#00fff4FF",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "53jlrbotl64000",
+      "isGroup": false,
+      "attr": {
+        "x": 1627,
+        "y": 617,
+        "w": 139,
+        "h": 100,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "金额(亿):",
+        "fontSize": 18,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#FFFFFFFF",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "5tpcf4ag7sc000",
+      "isGroup": false,
+      "attr": {
+        "x": 257,
+        "y": 132,
+        "w": 200,
+        "h": 100,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TextCommon",
+      "chartConfig": {
+        "key": "TextCommon",
+        "chartKey": "VTextCommon",
+        "conKey": "VCTextCommon",
+        "title": "文字",
+        "category": "Texts",
+        "categoryName": "文本",
+        "package": "Informations",
+        "chartFrame": "common",
+        "image": "text_static.png"
+      },
+      "option": {
+        "link": "",
+        "dataset": "总金额(亿):",
+        "fontSize": 18,
+        "linkHead": "http://",
+        "paddingX": 10,
+        "paddingY": 10,
+        "fontColor": "#FFFFFFFF",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "borderColor": "#ffffff",
+        "borderWidth": 0,
+        "writingMode": "horizontal-tb",
+        "borderRadius": 5,
+        "letterSpacing": 0,
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "190zjjyfyxwg00",
+      "isGroup": false,
+      "attr": {
+        "x": 32,
+        "y": 223,
+        "w": 482,
+        "h": 329,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": true,
+        "hueRotate": 30,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "BarLine",
+      "chartConfig": {
+        "key": "BarLine",
+        "chartKey": "VBarLine",
+        "conKey": "VCBarLine",
+        "title": "柱状图 & 折线图",
+        "category": "Bars",
+        "categoryName": "柱状图",
+        "package": "Charts",
+        "chartFrame": "echarts",
+        "image": "bar_line.png"
+      },
+      "option": {
+        "grid": {
+          "top": "60",
+          "left": "10%",
+          "show": false,
+          "right": "10%",
+          "bottom": "60"
+        },
+        "xAxis": {
+          "name": "类别",
+          "show": true,
+          "type": "category",
+          "inverse": false,
+          "nameGap": 15,
+          "axisLine": {
+            "show": true,
+            "onZero": true,
+            "lineStyle": {
+              "color": "#FFFFFFFF",
+              "width": 1
+            }
+          },
+          "axisTick": {
+            "show": true,
+            "length": 5
+          },
+          "position": "bottom",
+          "axisLabel": {
+            "show": true,
+            "color": "#21BCAFFF",
+            "rotate": 0,
+            "fontSize": 12
+          },
+          "splitLine": {
+            "show": false,
+            "lineStyle": {
+              "type": "solid",
+              "color": "#484753",
+              "width": 1
+            }
+          },
+          "nameTextStyle": {
+            "color": "#1597E7FF",
+            "fontSize": 12
+          }
+        },
+        "yAxis": {
+          "name": "个数/金额",
+          "show": true,
+          "type": "value",
+          "inverse": false,
+          "nameGap": 15,
+          "axisLine": {
+            "show": true,
+            "onZero": true,
+            "lineStyle": {
+              "color": "#FBFEFFFF",
+              "width": 1
+            }
+          },
+          "axisTick": {
+            "show": true,
+            "length": 5
+          },
+          "position": "left",
+          "axisLabel": {
+            "show": true,
+            "color": "#21BCAFFF",
+            "rotate": 0,
+            "fontSize": 12
+          },
+          "splitLine": {
+            "show": true,
+            "lineStyle": {
+              "type": "solid",
+              "color": "#484753",
+              "width": 1
+            }
+          },
+          "nameTextStyle": {
+            "color": "#1597E7FF",
+            "fontSize": 12
+          }
+        },
+        "legend": {
+          "x": "center",
+          "y": "top",
+          "data": null,
+          "icon": "circle",
+          "show": true,
+          "type": "scroll",
+          "orient": "horizontal",
+          "itemWidth": 15,
+          "textStyle": {
+            "color": "#FEFEFFFF",
+            "fontSize": 18
+          },
+          "itemHeight": 15,
+          "pageTextStyle": {
+            "color": "#FEFEFFFF"
+          }
+        },
+        "series": [
+          {
+            "type": "bar",
+            "label": {
+              "show": true,
+              "color": "#00fff4FF",
+              "fontSize": 12,
+              "position": "top"
+            },
+            "barWidth": 15,
+            "itemStyle": {
+              "color": null,
+              "borderRadius": 2
+            }
+          },
+          {
+            "type": "line",
+            "label": {
+              "show": true,
+              "color": "#00fff4FF",
+              "fontSize": 12,
+              "position": "top"
+            },
+            "symbol": "circle",
+            "itemStyle": {
+              "color": "#00fff4FF",
+              "borderWidth": 1
+            },
+            "lineStyle": {
+              "type": "solid",
+              "color": null,
+              "width": 3
+            },
+            "symbolSize": 5
+          }
+        ],
+        "dataset": {
+          "source": [
+            {
+              "个数": 390,
+              "金额": 566,
+              "product": "存单质押担保"
+            },
+            {
+              "个数": 270,
+              "金额": 1239,
+              "product": "信用担保"
+            },
+            {
+              "个数": 150,
+              "金额": 344,
+              "product": "融资租赁担保"
+            },
+            {
+              "个数": 366,
+              "金额": 899,
+              "product": "银保业务"
+            }
+          ],
+          "dimensions": [
+            "product",
+            "个数",
+            "金额"
+          ]
+        },
+        "tooltip": {
+          "show": true,
+          "trigger": "axis",
+          "axisPointer": {
+            "show": true,
+            "type": "shadow"
+          }
+        },
+        "backgroundColor": "rgba(0,0,0,0)"
+      }
+    },
+    {
+      "id": "48ikwfs7st6000",
+      "isGroup": false,
+      "attr": {
+        "x": 568,
+        "y": 122,
+        "w": 834,
+        "h": 482,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "MapBase",
+      "chartConfig": {
+        "key": "MapBase",
+        "chartKey": "VMapBase",
+        "conKey": "VCMapBase",
+        "title": "地图(可选省份)",
+        "category": "Maps",
+        "categoryName": "地图",
+        "package": "Charts",
+        "chartFrame": "common",
+        "image": "map.png"
+      },
+      "option": {
+        "geo": {
+          "map": "china",
+          "roam": false,
+          "show": false,
+          "type": "map",
+          "zoom": 1,
+          "selectedMode": false
+        },
+        "series": [
+          {
+            "data": [
+              {
+                "name": "北京",
+                "value": [
+                  116.405285,
+                  39.904989,
+                  200
+                ]
+              },
+              {
+                "name": "郑州",
+                "value": [
+                  113.665412,
+                  34.757975,
+                  888
+                ]
+              },
+              {
+                "name": "青海",
+                "value": [
+                  101.778916,
+                  36.623178,
+                  666
+                ]
+              },
+              {
+                "name": "宁夏回族自治区",
+                "value": [
+                  106.278179,
+                  38.46637,
+                  66
+                ]
+              },
+              {
+                "name": "哈尔滨市",
+                "value": [
+                  126.642464,
+                  45.756967,
+                  101
+                ]
+              }
+            ],
+            "name": "",
+            "type": "effectScatter",
+            "label": {
+              "show": true,
+              "color": "#FFFFFF",
+              "offset": [
+                0,
+                2
+              ],
+              "fontSize": 11,
+              "position": "bottom",
+              "formatter": "{b}",
+              "textShadowBlur": 10,
+              "textBorderColor": "#fff",
+              "textBorderWidth": 0,
+              "textShadowColor": "#000"
+            },
+            "encode": {
+              "value": 2
+            },
+            "tooltip": {
+              "show": true,
+              "textStyle": {
+                "color": "#FFF"
+              },
+              "borderColor": "rgba(147, 235, 248, .8)",
+              "backgroundColor": "rgba(0,0,0,.6)"
+            },
+            "itemStyle": {
+              "color": "#FFFFFF",
+              "shadowBlur": 10,
+              "borderColor": "rgba(225,255,255,2)",
+              "borderWidth": 4,
+              "shadowColor": "#E1FFFF"
+            },
+            "symbolSize": 4,
+            "rippleEffect": {
+              "color": "#FFFFFF",
+              "scale": 6,
+              "brushType": "fill"
+            },
+            "showEffectOn": "render",
+            "legendHoverLink": true,
+            "coordinateSystem": "geo"
+          },
+          {
+            "map": "china",
+            "data": [
+              {
+                "name": "北京市",
+                "value": 666
+              },
+              {
+                "name": "河北省",
+                "value": 98
+              },
+              {
+                "name": "江苏省",
+                "value": 300
+              },
+              {
+                "name": "福建省",
+                "value": 1199
+              },
+              {
+                "name": "山东省",
+                "value": 86
+              },
+              {
+                "name": "河南省",
+                "value": 850
+              },
+              {
+                "name": "湖北省",
+                "value": 84
+              },
+              {
+                "name": "广西壮族自治区",
+                "value": 81
+              },
+              {
+                "name": "海南省",
+                "value": 900
+              },
+              {
+                "name": "青海省",
+                "value": 800
+              },
+              {
+                "name": "新疆维吾尔自治区",
+                "value": 7
+              }
+            ],
+            "name": "区域",
+            "type": "map",
+            "zoom": 1,
+            "label": {
+              "show": false,
+              "color": "#FFFFFF",
+              "fontSize": 12
+            },
+            "tooltip": {
+              "show": true,
+              "textStyle": {
+                "color": "#FFFFFF",
+                "fontSize": 12
+              },
+              "borderColor": "rgba(147, 235, 248, 0.8)",
+              "backgroundColor": "#00000060"
+            },
+            "emphasis": {
+              "label": {
+                "color": "#FFFFFF",
+                "fontSize": 12
+              },
+              "disabled": false,
+              "itemStyle": {
+                "areaColor": "#09EECCFF",
+                "borderWidth": 1,
+                "shadowColor": "#389BB7"
+              }
+            },
+            "geoIndex": 1,
+            "itemStyle": {
+              "areaColor": {
+                "r": 0.8,
+                "x": 0.5,
+                "y": 0.5,
+                "type": "radial",
+                "colorStops": [
+                  {
+                    "color": "#0F7AEAFF",
+                    "offset": 0
+                  },
+                  {
+                    "color": "#0033FF00",
+                    "offset": 1
+                  }
+                ],
+                "globalCoord": false
+              },
+              "shadowBlur": 10,
+              "borderColor": "#09E1F1FF",
+              "borderWidth": 1,
+              "shadowColor": "#FBCA0642",
+              "shadowOffsetX": -2,
+              "shadowOffsetY": 2
+            },
+            "selectedMode": false
+          },
+          {
+            "data": [
+              {
+                "coords": [
+                  [
+                    113.665412,
+                    34.757975
+                  ],
+                  [
+                    116.405285,
+                    39.904989
+                  ]
+                ],
+                "lineStyle": {
+                  "color": "#1DD975FF"
+                }
+              },
+              {
+                "coords": [
+                  [
+                    101.778916,
+                    36.623178
+                  ],
+                  [
+                    116.405285,
+                    39.904989
+                  ]
+                ],
+                "lineStyle": {
+                  "color": "#1DD975FF"
+                }
+              },
+              {
+                "coords": [
+                  [
+                    106.278179,
+                    38.46637
+                  ],
+                  [
+                    116.405285,
+                    39.904989
+                  ]
+                ],
+                "lineStyle": {
+                  "color": "#1DD975FF"
+                }
+              },
+              {
+                "coords": [
+                  [
+                    126.642464,
+                    45.756967
+                  ],
+                  [
+                    116.405285,
+                    39.904989
+                  ]
+                ],
+                "lineStyle": {
+                  "color": "#1DD975FF"
+                }
+              }
+            ],
+            "type": "lines",
+            "effect": {
+              "show": true,
+              "period": 4,
+              "symbol": "arrow",
+              "symbolSize": 7,
+              "trailLength": 0.4
+            },
+            "zlevel": 2,
+            "lineStyle": {
+              "normal": {
+                "color": "#1DD975FF",
+                "width": 1,
+                "opacity": 0.1,
+                "curveness": 0.3
+              }
+            }
+          }
+        ],
+        "dataset": {
+          "map": [
+            {
+              "name": "北京市",
+              "value": 666
+            },
+            {
+              "name": "河北省",
+              "value": 98
+            },
+            {
+              "name": "江苏省",
+              "value": 300
+            },
+            {
+              "name": "福建省",
+              "value": 1199
+            },
+            {
+              "name": "山东省",
+              "value": 86
+            },
+            {
+              "name": "河南省",
+              "value": 850
+            },
+            {
+              "name": "湖北省",
+              "value": 84
+            },
+            {
+              "name": "广西壮族自治区",
+              "value": 81
+            },
+            {
+              "name": "海南省",
+              "value": 900
+            },
+            {
+              "name": "青海省",
+              "value": 800
+            },
+            {
+              "name": "新疆维吾尔自治区",
+              "value": 7
+            }
+          ],
+          "line": [
+            {
+              "coords": [
+                [
+                  113.665412,
+                  34.757975
+                ],
+                [
+                  116.405285,
+                  39.904989
+                ]
+              ]
+            },
+            {
+              "coords": [
+                [
+                  101.778916,
+                  36.623178
+                ],
+                [
+                  116.405285,
+                  39.904989
+                ]
+              ]
+            },
+            {
+              "coords": [
+                [
+                  106.278179,
+                  38.46637
+                ],
+                [
+                  116.405285,
+                  39.904989
+                ]
+              ]
+            },
+            {
+              "coords": [
+                [
+                  126.642464,
+                  45.756967
+                ],
+                [
+                  116.405285,
+                  39.904989
+                ]
+              ]
+            }
+          ],
+          "point": [
+            {
+              "name": "北京",
+              "value": [
+                116.405285,
+                39.904989,
+                200
+              ]
+            },
+            {
+              "name": "郑州",
+              "value": [
+                113.665412,
+                34.757975,
+                888
+              ]
+            },
+            {
+              "name": "青海",
+              "value": [
+                101.778916,
+                36.623178,
+                666
+              ]
+            },
+            {
+              "name": "宁夏回族自治区",
+              "value": [
+                106.278179,
+                38.46637,
+                66
+              ]
+            },
+            {
+              "name": "哈尔滨市",
+              "value": [
+                126.642464,
+                45.756967,
+                101
+              ]
+            }
+          ],
+          "pieces": [
+            {
+              "gte": 1000,
+              "label": ">1000"
+            },
+            {
+              "gte": 600,
+              "lte": 999,
+              "label": "600-999"
+            },
+            {
+              "gte": 200,
+              "lte": 599,
+              "label": "200-599"
+            },
+            {
+              "gte": 50,
+              "lte": 199,
+              "label": "49-199"
+            },
+            {
+              "gte": 10,
+              "lte": 49,
+              "label": "10-49"
+            },
+            {
+              "lte": 9,
+              "label": "<9"
+            }
+          ]
+        },
+        "tooltip": {
+          "show": true,
+          "trigger": "item"
+        },
+        "mapRegion": {
+          "enter": true,
+          "adcode": "china",
+          "backSize": 18,
+          "backColor": "#10D3EDFF",
+          "showHainanIsLands": false
+        },
+        "visualMap": {
+          "show": false,
+          "orient": "horizontal",
+          "pieces": [
+            {
+              "gte": 1000,
+              "label": ">1000"
+            },
+            {
+              "gte": 600,
+              "lte": 999,
+              "label": "600-999"
+            },
+            {
+              "gte": 200,
+              "lte": 599,
+              "label": "200-599"
+            },
+            {
+              "gte": 50,
+              "lte": 199,
+              "label": "49-199"
+            },
+            {
+              "gte": 10,
+              "lte": 49,
+              "label": "10-49"
+            },
+            {
+              "lte": 9,
+              "label": "<9"
+            }
+          ],
+          "inRange": {
+            "color": [
+              "#D7AD7700",
+              "#397BC5FF",
+              "#2784E0FF",
+              "#2086EAFF",
+              "#057DF4FF",
+              "#073FF9FF"
+            ]
+          },
+          "inverse": false,
+          "realtime": true,
+          "textStyle": {
+            "color": "#fff"
+          }
+        },
+        "backgroundColor": "rgba(0,0,0,0)"
+      }
+    },
+    {
+      "id": "l4xlax21c8g00",
+      "isGroup": false,
+      "attr": {
+        "x": 1179,
+        "y": -2,
+        "w": 0,
+        "h": 68,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "Decorates04",
+      "chartConfig": {
+        "key": "Decorates04",
+        "chartKey": "VDecorates04",
+        "conKey": "VCDecorates04",
+        "title": "装饰-04",
+        "category": "Decorates",
+        "categoryName": "装饰",
+        "package": "Decorates",
+        "chartFrame": "static",
+        "image": "decorates04.png"
+      },
+      "option": {
+        "colors": [
+          "#1dc1f5",
+          "#1dc1f5"
+        ],
+        "reverse": false
+      }
+    },
+    {
+      "id": "544rr3mqykg000",
+      "isGroup": false,
+      "attr": {
+        "x": 16,
+        "y": 155,
+        "w": 500,
+        "h": 370,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "Border01",
+      "chartConfig": {
+        "key": "Border01",
+        "chartKey": "VBorder01",
+        "conKey": "VCBorder01",
+        "title": "边框-01",
+        "category": "Borders",
+        "categoryName": "边框",
+        "package": "Decorates",
+        "chartFrame": "static",
+        "image": "border01.png"
+      },
+      "option": {
+        "dur": 0.5,
+        "colors": [
+          "#4fd2dd",
+          "#235fa7"
+        ],
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "5jbuxebnr2o000",
+      "isGroup": false,
+      "attr": {
+        "x": 1701,
+        "y": 134,
+        "w": 188,
+        "h": 167,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "ThreeEarth01",
+      "chartConfig": {
+        "key": "ThreeEarth01",
+        "chartKey": "VThreeEarth01",
+        "conKey": "VCThreeEarth01",
+        "title": "三维地球",
+        "category": "Three",
+        "categoryName": "三维",
+        "package": "Decorates",
+        "chartFrame": "common",
+        "image": "threeEarth01.png"
+      },
+      "option": {
+        "dataset": [
+          {
+            "startArray": {
+              "name": "杭州",
+              "N": 30.246026,
+              "E": 120.210792
+            },
+            "endArray": [
+              {
+                "name": "曼谷",
+                "N": 22,
+                "E": 100.49074172973633
+              },
+              {
+                "name": "澳大利亚",
+                "N": -23.68477416688374,
+                "E": 133.857421875
+              },
+              {
+                "name": "新疆维吾尔自治区",
+                "N": 41.748,
+                "E": 84.9023
+              },
+              {
+                "name": "德黑兰",
+                "N": 35,
+                "E": 51
+              },
+              {
+                "name": "德黑兰",
+                "N": 35,
+                "E": 51
+              },
+              {
+                "name": "美国",
+                "N": 34.125447565116126,
+                "E": 241.7431640625
+              },
+              {
+                "name": "英国",
+                "N": 51.508742458803326,
+                "E": 359.82421875
+              },
+              {
+                "name": "巴西",
+                "N": -9.96885060854611,
+                "E": 668.1445312499999
+              }
+            ]
+          },
+          {
+            "startArray": {
+              "name": "北京",
+              "N": 39.89491,
+              "E": 116.322056
+            },
+            "endArray": [
+              {
+                "name": "西藏",
+                "N": 29.660361,
+                "E": 91.132212
+              },
+              {
+                "name": "广西",
+                "N": 22.830824,
+                "E": 108.30616
+              },
+              {
+                "name": "江西",
+                "N": 28.676493,
+                "E": 115.892151
+              },
+              {
+                "name": "贵阳",
+                "N": 26.647661,
+                "E": 106.630153
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3x061ty8mgo000",
+      "isGroup": false,
+      "attr": {
+        "x": 1389,
+        "y": 29,
+        "w": 500,
+        "h": 300,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "Border05",
+      "chartConfig": {
+        "key": "Border05",
+        "chartKey": "VBorder05",
+        "conKey": "VCBorder05",
+        "title": "边框-05",
+        "category": "Borders",
+        "categoryName": "边框",
+        "package": "Decorates",
+        "chartFrame": "static",
+        "image": "border05.png"
+      },
+      "option": {
+        "colors": [
+          "#1d48c4",
+          "#d3e1f8"
+        ],
+        "backgroundColor": "#00000000"
+      }
+    },
+    {
+      "id": "jj6ckn66wmg00",
+      "isGroup": false,
+      "attr": {
+        "x": 1377,
+        "y": 347,
+        "w": 500,
+        "h": 300,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "CapsuleChart",
+      "chartConfig": {
+        "key": "CapsuleChart",
+        "chartKey": "VCapsuleChart",
+        "conKey": "VCCapsuleChart",
+        "title": "胶囊柱图",
+        "category": "Bars",
+        "categoryName": "柱状图",
+        "package": "Charts",
+        "chartFrame": "common",
+        "image": "capsule.png"
+      },
+      "option": {
+        "dataset": {
+          "dimensions": [
+            "name",
+            "value"
+          ],
+          "source": [
+            {
+              "name": "厦门",
+              "value": 20
+            },
+            {
+              "name": "南阳",
+              "value": 40
+            },
+            {
+              "name": "北京",
+              "value": 60
+            },
+            {
+              "name": "上海",
+              "value": 80
+            },
+            {
+              "name": "新疆",
+              "value": 100
+            }
+          ]
+        },
+        "colors": [
+          "#c4ebad",
+          "#6be6c1",
+          "#a0a7e6",
+          "#96dee8",
+          "#3fb1e3"
+        ],
+        "unit": "",
+        "itemHeight": 10,
+        "valueFontSize": 16,
+        "paddingRight": 50,
+        "paddingLeft": 50,
+        "showValue": true
+      }
+    },
+    {
+      "id": "3loywvi1edg000",
+      "isGroup": false,
+      "attr": {
+        "x": 10,
+        "y": 14,
+        "w": 300,
+        "h": 50,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "TimeCommon",
+      "chartConfig": {
+        "key": "TimeCommon",
+        "chartKey": "VTimeCommon",
+        "conKey": "VCTimeCommon",
+        "title": "通用时间",
+        "category": "Mores",
+        "categoryName": "更多",
+        "package": "Decorates",
+        "chartFrame": "static",
+        "image": "time.png"
+      },
+      "option": {
+        "timeSize": 24,
+        "timeLineHeight": 50,
+        "timeTextIndent": 2,
+        "timeColor": "#E6F7FF",
+        "fontWeight": "normal",
+        "showShadow": true,
+        "hShadow": 0,
+        "vShadow": 0,
+        "blurShadow": 8,
+        "colorShadow": "#0075ff"
+      }
+    },
+    {
+      "id": "23ged2ooep7k00",
+      "isGroup": false,
+      "attr": {
+        "x": 7,
+        "y": -87,
+        "w": 500,
+        "h": 300,
+        "offsetX": 0,
+        "offsetY": 0,
+        "zIndex": -1
+      },
+      "styles": {
+        "filterShow": false,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "blendMode": "normal",
+        "animations": []
+      },
+      "preview": {
+        "overFlowHidden": false
+      },
+      "status": {
+        "lock": false,
+        "hide": false
+      },
+      "request": {
+        "requestDataType": 0,
+        "requestHttpType": "get",
+        "requestUrl": "",
+        "requestInterval": null,
+        "requestIntervalUnit": "second",
+        "requestContentType": 0,
+        "requestParamsBodyType": "none",
+        "requestSQLContent": {
+          "sql": "select * from  where"
+        },
+        "requestParams": {
+          "Body": {
+            "form-data": {},
+            "x-www-form-urlencoded": {},
+            "json": "",
+            "xml": ""
+          },
+          "Header": {},
+          "Params": {}
+        }
+      },
+      "filter": null,
+      "events": {
+        "baseEvent": {
+          "click": null,
+          "dblclick": null,
+          "mouseenter": null,
+          "mouseleave": null
+        },
+        "advancedEvents": {
+          "vnodeMounted": null,
+          "vnodeBeforeMount": null
+        },
+        "interactEvents": []
+      },
+      "key": "Decorates05",
+      "chartConfig": {
+        "key": "Decorates05",
+        "chartKey": "VDecorates05",
+        "conKey": "VCDecorates05",
+        "title": "装饰-05",
+        "category": "Decorates",
+        "categoryName": "装饰",
+        "package": "Decorates",
+        "chartFrame": "static",
+        "image": "decorates05.png"
+      },
+      "option": {
+        "colors": [
+          "#00c2ff",
+          "#00c2ff4d"
+        ],
+        "dur": 3
+      }
+    }
+  ],
+  "requestGlobalConfig": {
+    "requestDataPond": [],
+    "requestOriginUrl": "",
+    "requestInterval": 30,
+    "requestIntervalUnit": "second",
+    "requestParams": {
+      "Body": {
+        "form-data": {},
+        "x-www-form-urlencoded": {},
+        "json": "",
+        "xml": ""
+      },
+      "Header": {},
+      "Params": {}
+    }
+  }
+}
