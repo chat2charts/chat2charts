@@ -68,4 +68,4 @@ Chat2Charts 是一款 AI first 的数据管理、开发、分析工具，它的�
 ## ☎️ 加入我们
 
 加群前请先 Star 和 Fork，谢谢~加入微信群一起讨论，并可以获取 Chat2Charts 最新动态和更新。
-![](readm/personelwechat.jpg) 备注：chat2charts
+![](readme/personelwechat.jpg) 备注：chat2charts
